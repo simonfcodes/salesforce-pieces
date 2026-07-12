@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "email-to-stale-case",
+      "default": false
+    },
+    {
+      "path": "metadata-triggers",
+      "default": false
+    }
+  ],
+  "name": "sfbysimon",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "67.0"
+}
