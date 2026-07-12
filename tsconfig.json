@@ -1,0 +1,20 @@
+{
+    "extends": "./.sfdx/tsconfig.sfdx.json",
+    "files": [
+    // "../../../../node_modules/@salesforce/lightning-types/dist/index.d.ts"
+    ],
+    "include": [
+        "**/*.ts",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts",
+        "../../../../types/**/*.d.ts"
+    ],
+    "exclude": [
+        "**/__tests__/**"
+    ],
+    "compilerOptions": {
+        "module": "ES2022",
+        "target": "ES2022",
+        "experimentalDecorators": false,
+        "useDefineForClassFields": true,        
+    }
+}
