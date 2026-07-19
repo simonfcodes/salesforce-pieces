@@ -1,20 +1,23 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    },
-    {
-      "path": "email-to-stale-case",
-      "default": false
-    },
-    {
-      "path": "metadata-triggers",
-      "default": false
-    }
-  ],
-  "name": "sfbysimon",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "67.0"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "custom-exception",
+            "default": false
+        },
+        {
+            "path": "metadata-triggers"
+        },
+        {
+            "path": "email-to-stale-case",
+            "default": false
+        }
+    ],
+    "name": "sfbysimon",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "67.0"
 }
