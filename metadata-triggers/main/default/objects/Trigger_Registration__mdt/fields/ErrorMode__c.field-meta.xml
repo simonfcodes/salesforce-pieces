@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ErrorMode__c</fullName>
+    <description>Controls how exceptions from the handler should be handled. FAIL_FAST means that if this handler throws, subsequent handlers don&apos;t run. LOG_AND_CONTINUE means that if this handler throws subsequent handlers will still run.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Error Mode</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FAIL_FAST</fullName>
+                <default>true</default>
+                <label>FAIL_FAST</label>
+            </value>
+            <value>
+                <fullName>LOG_AND_CONTINUE</fullName>
+                <default>false</default>
+                <label>LOG_AND_CONTINUE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
